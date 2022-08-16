@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="index_cal.css">
+</head>
+<body>
+  <div class="container">
+    <div class="cal">
+      <input type="text"  id="display" placeholder="0">
+      <button onclick="clr()">C</button>
+      <button class="del" onclick="del()">DEL</button>
+      <button onclick="culate('%')">%</button>
+      <button onclick="culate('/')">/</button>
+      <button onclick="culate('7')">7</button>
+      <button onclick="culate('8')">8</button>
+      <button onclick="culate('9')">9</button>
+      <button onclick="culate('*')">*</button>
+      <button onclick="culate('4')">4</button>
+      <button onclick="culate('5')">5</button>
+      <button onclick="culate('6')">6</button>
+      <button onclick="culate('-')">-</button>
+      <button onclick="culate('1')">1</button>
+      <button onclick="culate('2')">2</button>
+      <button onclick="culate('3')">3</button>
+      <button onclick="culate('+')">+</button>
+      <button onclick="culate('.')">.</button>
+      <button onclick="culate('0')">0</button>
+      <button class="sign" onclick="Answer()">=</button>
+      <script src="index_cal.js"></script>
+
+    </div> 
+  </div>
+</body>
+</html>
